@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script> 
+    <title>Metaweather APP</title>
+  </head>
+  <body>
+    <div class="search-box">
+      <input
+        class="search-input"
+        type="text"
+        name=""
+        placeholder="Search by city name"
+        id="searchInput"
+      />
+      <a href="#" class="search-btn" id="searchBtn">
+        <i class="fas fa-search"></i>
+      </a>
+    </div>
+    <div class="weather-cards-container" id="cardsContainer">
+      <div class="card">
+        <div class="content">
+          <span class="city">Weather in Alexandria,EG</span>
+          <h2 class="temp">
+            23 <span class="celsius">°C</span>
+          </h2>
+
+          <img
+            src="https://openweathermap.org/img/wn/10d.png"
+            class="icon"
+            alt="weather icon"
+          />
+          <span class="description">Clear sky</span> <br>
+          <span class="min-max" >Min:23 &nbsp&nbsp Max:23 </span> <br>
+          <span class="humidity">Humidity: 77% </span> <br>
+          <span class="windSpeed">Wind: 1.1 Km/h</span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
